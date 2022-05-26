@@ -14,7 +14,7 @@ const NFT = ({ nft }) => {
           className="nft-image"
           // onError={(i) => (i.target.style.display = "none")}
         />
-        <div className="nft-title">{nft.meta.name}</div>
+        {/* <div className="nft-title">{nft.meta.name}</div>
         <div className="nft-creator">
           by{" "}
           <a
@@ -28,7 +28,7 @@ const NFT = ({ nft }) => {
               "..." +
               nft.creators[0].account.replace("ETHEREUM:", "").substr(-4)}
           </a>
-        </div>
+        </div> */}
       </a>
     </div>
   );

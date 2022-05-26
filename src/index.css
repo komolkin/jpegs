@@ -59,6 +59,12 @@ a {
 .nft-title {
   margin-top: 8px;
   font-weight: 600;
+  /* max-width: 300px;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
 }
 
 .nft-creator {
@@ -90,11 +96,15 @@ button {
   appearance: none;
   border: none;
   border-radius: 10px;
-  background: #191b1f;
+  /* background: #191b1f; */
   color: var(--form-back);
   font: inherit;
   padding: 10px 16px;
   font-weight: 600;
+
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
 
   -webkit-transition: -webkit-all 0.3s ease;
   -moz-transition: -moz-all 0.3s ease;

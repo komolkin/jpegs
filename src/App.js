@@ -60,7 +60,7 @@ export default function App() {
     connectWallet();
   });
 
-  const initialText = "Connect";
+  const initialText = "jpegs.cool";
   const [buttonText, setButtonText] = useState(initialText);
 
   function handleClick() {
