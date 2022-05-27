@@ -60,7 +60,7 @@ export default function App() {
     connectWallet();
   });
 
-  const initialText = "jpegs.cool";
+  const initialText = "JPEGS.COOL";
   const [buttonText, setButtonText] = useState(initialText);
 
   function handleClick() {
@@ -91,6 +91,7 @@ export default function App() {
           <button onClick={handleClick}>{buttonText}</button>
           <Connect />
         </div>
+        {/* <>Owns a total of 91 NFTs</> */}
         <Container nfts={nfts} />
       </RainbowKitProvider>
     </WagmiProvider>
